@@ -1,0 +1,35 @@
+{
+  "name": "remark-twemoji",
+  "version": "0.0.0",
+  "description": "Remark plugin to use Twemoji",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": "madiodio/remark-twemoji",
+  "keywords": [
+    "remark",
+    "emoji",
+    "twemoji",
+    "javascript",
+    "js"
+  ],
+  "author": "Madiodio Gaye <papigaye1@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/madiodio/remark-twemoji#readme",
+  "devDependencies": {
+    "twemoji": "^2.5.1"
+  },
+  "dependencies": {
+    "unist-util-visit": "^1.3.0"
+  },
+  "peerDependencies": {
+    "twemoji": ">=2.5.0"
+  }
+}
