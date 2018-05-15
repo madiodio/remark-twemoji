@@ -1,6 +1,6 @@
 {
   "name": "remark-twemoji",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Remark plugin to use Twemoji",
   "main": "index.js",
   "files": [
