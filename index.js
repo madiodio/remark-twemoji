@@ -8,14 +8,20 @@ const EmojiRegExp = new RegExp(
 
 module.exports = options => {
   const settings = options || {};
+  function attributesCallback(rawText) {
+    return {
+      title: rawText
+    };
+  }
   function transformer(tree) {
     visit(tree, "text", node => {
       if (EmojiRegExp.test(node.value)) {
-        node.type = "html";
-        node.value = twemoji.parse(
+        const parsedNode = twemoji.parse(
           node.value,
-          Object.assign({ className: "remark-emoji" }, settings)
+          Object.assign({ attributes: attributesCallback }, settings)
         );
+        node.type = "html";
+        node.value = parsedNode.replace(/class/g, 'className');
       }
     });
   }
