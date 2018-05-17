@@ -9,7 +9,7 @@
 [npm-image]: https://img.shields.io/npm/v/remark-twemoji.svg
 [npm-url]: https://npmjs.org/package/remark-twemoji
 [travis-url]: https://travis-ci.org/madiodio/remark-twemoji
-[travis-image]: https://img.shields.io/madiodio/remark-twemoji/master.svg
+[travis-image]: https://img.shields.io/travis/madiodio/remark-twemoji/master.svg
 
 Remark plugin to replace your emoji by using [twemoji](https://github.com/twitter/twemoji).
 
