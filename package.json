@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Remark plugin to use Twemoji",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=6"
   },
@@ -11,14 +13,19 @@
     "test": "node test.js"
   },
   "repository": "madiodio/remark-twemoji",
-  "keywords": ["remark", "emoji", "twemoji", "javascript", "js"],
+  "keywords": [
+    "remark",
+    "emoji",
+    "twemoji",
+    "javascript",
+    "js"
+  ],
   "author": "Madiodio Gaye <papigaye1@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/madiodio/remark-twemoji#readme",
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
-    "nyc": "^11.8.0",
     "remark": "^9.0.0",
     "tape": "^4.9.0",
     "twemoji": "^2.5.1"
@@ -35,11 +42,22 @@
       "es6": true,
       "node": true
     },
-    "extends": ["eslint:recommended"],
+    "extends": [
+      "eslint:recommended"
+    ],
     "rules": {
-      "indent": [2, 2],
-      "linebreak-style": [2, "unix"],
-      "semi": [2, "always"]
+      "indent": [
+        2,
+        2
+      ],
+      "linebreak-style": [
+        2,
+        "unix"
+      ],
+      "semi": [
+        2,
+        "always"
+      ]
     }
   }
 }
