@@ -21,7 +21,12 @@ module.exports = options => {
           Object.assign({ attributes: attributesCallback }, settings)
         );
         node.type = "html";
-        node.value = parsedNode.replace(/class/g, 'className');
+        // Check if 'isReact: true' is specified in options
+        if (settings.isReact) {
+          node.value = parsedNode.replace(/class/g, "className");
+        } else {
+          node.value = parsedNode;
+        }
       }
     });
   }
