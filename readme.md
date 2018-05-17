@@ -8,7 +8,7 @@
 [prettier-url]: https://github.com/prettier/prettier
 [npm-image]: https://img.shields.io/npm/v/remark-twemoji.svg
 [npm-url]: https://npmjs.org/package/remark-twemoji
-[travis-url]: https://travis-ci.org/madiodio/eslint-config-personal
+[travis-url]: https://travis-ci.org/madiodio/remark-twemoji
 [travis-image]: https://img.shields.io/madiodio/remark-twemoji/master.svg
 
 Remark plugin to replace your emoji by using [twemoji](https://github.com/twitter/twemoji).
@@ -69,7 +69,7 @@ For more informations, check [this section](https://github.com/mdx-js/mdx#plugin
 
 ### `options.isReact` (boolean)
 
-When using this plugin in a React setup, Twemoji will parse a dom node containing the attribute `class` instead of `className` which causes a warning at runtime. So you're using React in your setup, use this to instruct the plugin to replace `class` by `className` in the final node, eg: ...`[twemoji, { isReact: true }]`...
+When using this plugin in a React setup, Twemoji will parse a dom node containing the attribute `class` instead of `className` which causes a warning at runtime. So if you're using React in your setup, use this to instruct the plugin to replace `class` by `className` in the final node, eg: ...`[twemoji, { isReact: true }]`...
 
 ## Other options
 
@@ -88,7 +88,7 @@ When using this plugin in a React setup, Twemoji will parse a dom node containin
   }
 ```
 
-The other options you can pass to this plugin are the twemoji options, you can read more about them [here](https://github.com/twitter/twemoji#object-as-parameter).
+These are the options you can pass to this plugin as the twemoji options, you can read more about them [here](https://github.com/twitter/twemoji#object-as-parameter).
 
 ## Inspirations
 
