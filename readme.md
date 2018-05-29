@@ -56,7 +56,8 @@ const twemoji = require("remark-twemoji");
     {
       loader: "@mdx-js/loader",
       options: {
-        mdPlugins: [twemoji, { isReact: true }]
+        mdPlugins: [twemoji],
+        isReact: true
       }
     }
   ]
