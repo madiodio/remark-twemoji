@@ -33,7 +33,7 @@ const twemoji = require("remark-twemoji");
 
 const doc = "😂";
 remark()
-  .use(emoji)
+  .use(twemoji)
   .process(doc, function(err, file) {
     console.log(String(file));
   });
