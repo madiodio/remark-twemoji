@@ -15,8 +15,10 @@ Remark plugin to replace your emoji by using [twemoji](https://github.com/twitte
 
 ## Install
 
+> Note: Although it is marked as a [peerDependency](https://docs.npmjs.com/files/package.json#peerdependencies), [twemoji](https://github.com/twitter/twemoji) is required to work with this module.
+
 ```bash
-npm install --dev remark-twemoji
+npm install --dev remark-twemoji twemoji 
 ```
 
 ## Usage
