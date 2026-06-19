@@ -23,6 +23,9 @@
   "author": "Madiodio Gaye <papigaye1@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/madiodio/remark-twemoji#readme",
+  "bugs": {
+    "url": "https://github.com/madiodio/remark-twemoji/issues"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
